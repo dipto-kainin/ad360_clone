@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./Poppins-Regular.ttf);
+  font-display: swap
+}
+
+.poppins-medium {
+  font-family: Poppins Medium
+}
+
+@font-face {
+  font-family: Poppins Medium;
+  src: url(./Poppins-Medium.ttf);
+  font-display: swap
+}
+
+.poppins-semiBold {
+  font-family: Poppins SemiBold
+}
+
+@font-face {
+  font-family: Poppins SemiBold;
+  src: url(./Poppins-SemiBold.ttf);
+  font-display: swap
+}
+
+.poppins-thin {
+  font-family: Poppins Thin
+}
+
+@font-face {
+  font-family: Poppins Thin;
+  src: url(./Poppins-Thin.ttf);
+  font-display: swap
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./Inter-VariableFont_slnt%2Cwght.ttf);
+  font-display: swap
+}
+
+@font-face {
+  font-family: Eudoxus Sans;
+  src: url(./EudoxusSans-Regular.ttf);
+  font-display: swap
+}
+
+.cirka {
+  font-family: Cirka
+}
+
+@font-face {
+  font-family: Cirka;
+  src: url(./Cirka-Variable.ttf);
+  font-display: swap
+}

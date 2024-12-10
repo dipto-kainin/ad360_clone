@@ -1,0 +1,66 @@
+
+[data-astro-transition-scope=astro-gjjrnpmp-1] {
+  view-transition-name: astro-gjjrnpmp-1
+}
+
+@layer astro {
+  ::view-transition-old(astro-gjjrnpmp-1) {
+    animation-duration: 180ms;
+    animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+    animation-fill-mode: both;
+    animation-name: astroFadeOut
+  }
+
+  ::view-transition-new(astro-gjjrnpmp-1) {
+    animation-duration: 180ms;
+    animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+    animation-fill-mode: both;
+    animation-name: astroFadeIn
+  }
+
+  [data-astro-transition=back]::view-transition-old(astro-gjjrnpmp-1) {
+    animation-duration: 180ms;
+    animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+    animation-fill-mode: both;
+    animation-name: astroFadeOut
+  }
+
+  [data-astro-transition=back]::view-transition-new(astro-gjjrnpmp-1) {
+    animation-duration: 180ms;
+    animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+    animation-fill-mode: both;
+    animation-name: astroFadeIn
+  }
+}
+
+[data-astro-transition-fallback=old] [data-astro-transition-scope=astro-gjjrnpmp-1],
+[data-astro-transition-fallback=old][data-astro-transition-scope=astro-gjjrnpmp-1] {
+  animation-duration: 180ms;
+  animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+  animation-fill-mode: both;
+  animation-name: astroFadeOut
+}
+
+[data-astro-transition-fallback=new] [data-astro-transition-scope=astro-gjjrnpmp-1],
+[data-astro-transition-fallback=new][data-astro-transition-scope=astro-gjjrnpmp-1] {
+  animation-duration: 180ms;
+  animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+  animation-fill-mode: both;
+  animation-name: astroFadeIn
+}
+
+[data-astro-transition=back][data-astro-transition-fallback=old] [data-astro-transition-scope=astro-gjjrnpmp-1],
+[data-astro-transition=back][data-astro-transition-fallback=old][data-astro-transition-scope=astro-gjjrnpmp-1] {
+  animation-duration: 180ms;
+  animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+  animation-fill-mode: both;
+  animation-name: astroFadeOut
+}
+
+[data-astro-transition=back][data-astro-transition-fallback=new] [data-astro-transition-scope=astro-gjjrnpmp-1],
+[data-astro-transition=back][data-astro-transition-fallback=new][data-astro-transition-scope=astro-gjjrnpmp-1] {
+  animation-duration: 180ms;
+  animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+  animation-fill-mode: both;
+  animation-name: astroFadeIn
+}

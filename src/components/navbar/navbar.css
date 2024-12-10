@@ -1,0 +1,60 @@
+.menubox{
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #149efc;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.menubar{
+    background-color: azure;
+    z-index: 5;
+    position: relative;
+    height: 2px;
+    width: 20px;
+    display: block;
+    border-radius: 3px;
+    position: absolute;
+    transition: .3s;
+}
+.anim21{
+  transform: translateY(-6px);
+}
+.anim22{
+  transform: translateY(6px) ;
+}
+
+.anim1{
+  transform: translateY(0px) rotate(-45deg);
+}
+.anim2{
+  display: none !important;
+}
+.anim3{
+  transform: translateY(0px) rotate(45deg);
+}
+
+.anim-nav{
+  animation: open-nav 1;
+}
+
+@keyframes open-nav{
+  from{
+    width: 0;
+    transform: translateX(-100vw);
+  }to{
+    width: 100%;
+    transform: translateX(0);
+  }
+}
+
+.w-230px{
+width: 230px !important;
+}
