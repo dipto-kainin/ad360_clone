@@ -6,10 +6,7 @@ import img3 from "../images/update_google_partner.svg";
 import img4 from "../images/Ad360MainSectionImg.webp";
 function Heade() {
     return (
-        <div
-            className="dflexr main__section"
-            style={{ height: "100dvh", margin: "auto" }}
-        >
+        <div className="dflexr main__section " style={{ height: "100dvh" }}>
             <div className="main__section__left">
                 <h2 className="poppins left__heading">
                     Break Free
