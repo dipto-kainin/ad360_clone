@@ -40,12 +40,14 @@ function Pricing() {
                             2583.33 * value * value * value -
                                 13250 * value * value +
                                 27166.67 * value
-                        ) > 0
+                        ) -
+                            12000 >
+                        0
                             ? Math.ceil(
                                   2583.33 * value * value * value -
                                       13250 * value * value +
                                       27166.67 * value
-                              )
+                              ) - 12000
                             : 0}
                     </span>
                 </h2>
