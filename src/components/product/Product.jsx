@@ -43,7 +43,7 @@ const features = [
 
 export function WhyChooseAd360() {
     return (
-        <section className="bg-white py-16 flex flex-col justify-center items-center">
+        <section className="bg-white py-16 px-6 flex flex-col justify-center items-center">
             <div className="container">
                 <h2 className="text-3xl font-bold text-center mb-12">
                     Why choose Ad360?
@@ -64,10 +64,10 @@ export function WhyChooseAd360() {
                                     alt={feature.title}
                                     className="object-cover rounded-lg w-[300px] h-[200px]"
                                 />
-                                <h3 className="text-center text-3xl font-semibold my-4">
+                                <h3 className="text-center lg:text-3xl md:xl  font-semibold my-4">
                                     {feature.title}
                                 </h3>
-                                <p className="text-center text-muted-foreground text-2xl">
+                                <p className="text-center text-muted-foreground lg:text-2xl md:text-lg">
                                     {feature.description}
                                 </p>
                             </div>
